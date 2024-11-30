@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 1280;
+    width: 130;
+    position: fixed;
+}
+
+@font-face {
+    font-family: winter;
+    src: url(Winter\ Selfie.ttf);
+}
+@font-face {
+    font-family: lemon;
+    src: url(Winter\ Lemon.ttf);
+}
+
+@font-face {
+    font-family: Jumbo;
+    src: url(JUMBOJIM.ttf);
+}
+
+@font-face {
+    font-family: kopi;
+    src: url(coffee_soda/Coffee\ Soda.ttf);
+}
+
+body{
+    background-image: url(PBB.png);
+    background: scroll;
+    animation-name: unset;
+}
+/* kode css navigator */
+ul{
+    list-style: none;
+    background-color: lightgoldenrodyellow;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    position: relative;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: rgb(206, 255, 206);
+}
+
+/* kode css dropdown */
+ul li ul.dropdown{
+    background-color: pink;
+    position: fixed;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* kode css gambar dan tulisan bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+.column.side {
+    margin: 30px 0px;
+    width: 20%;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.column.middle {
+    margin: 30px 0px;
+    width: 70%;
+    word-spacing: 10px;
+    text-align: justify;
+    background-color: rgb(213, 243, 255);
+    font-family: lemon;
+}
+
+
+.footer{
+    width: 1280px;
+    position: fixed;
+    bottom: 0;
+}
+
+@font-face {
+    font-family: jumat;
+    src: url(Butler/Butler_Black.otf);
+}
+.ab{
+    font-family: winter;
+    text-align: center;
+    color: rgb(0, 55, 142);
+    letter-spacing: 4px;
+
+}
+.ef{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: rgb(0, 0, 0);
+    text-align: justify;
+}
+.gh{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: smaller;
+    text-align: justify;
+}
+
+.bye{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}
+.number{
+    margin: 0px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    color: rgb(0, 0, 0);
+}

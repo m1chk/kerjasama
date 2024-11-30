@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: lampu;
+    src: url(LAMPOH-Bold\ Personal\ Use.ttf);
+}
+
+@font-face {
+    font-family: today;
+    src: url(Today\ Show.otf);
+}
+
+.Header{
+    height: 1280;
+    width: 130;
+    position: fixed;
+}
+
+body{
+    background-color: aliceblue;
+    font-family: lampu;    
+}
+
+.kerjas{
+    font-family: today;
+    word-spacing: 100px;
+    font-size: xx-large;
+    text-align: center;
+    color: white;
+    background-color: darkgreen;
+}
+/* kode css navigator */
+ul{
+    list-style: none;
+    background-color: lightgoldenrodyellow;
+    padding: 0px 0px;
+    margin: 10px 0px;
+    position: relative;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: rgb(206, 255, 206);
+}
+
+/* kode css dropdown */
+ul li ul.dropdown{
+    background-color: pink;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* kode css gambar dan tulisan bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+.column.side {
+    margin: 30px 0px;
+    width: 20%;
+    background-color: aliceblue;
+}
+
+.column.middle {
+    margin: 30px 0px;
+    width: 70%;
+    background-color: rgb(240, 255, 240);
+}
+.footer{
+    width: 1280px;
+    position: relative;
+    bottom: 0;
+}

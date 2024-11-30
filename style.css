@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 1280;
+    width: 130;
+    position: fixed;
+}
+@font-face {
+    font-family: winter;
+    src: url(Winter\ Selfie.ttf);
+}
+@font-face {
+    font-family: lemon;
+    src: url(Winter\ Lemon.ttf);
+}
+
+@font-face {
+    font-family: Jumbo;
+    src: url(JUMBOJIM.ttf);
+}
+
+body{
+    background-color: aliceblue;  
+}
+
+.a{
+    font-family: winter;
+    letter-spacing: 5px;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.b{
+    text-align: justify;
+    font-family: winter;
+    font-size: large;
+    letter-spacing: 2px;
+    color: darkblue;
+}
+
+.c{
+    text-align: center;
+    font-size: x-large;
+    letter-spacing: 5px;
+    font-family: lemon;
+    color: rgb(27, 2, 125);
+}
+
+.d{
+    text-align: justify;
+    font-family: winter;
+    word-spacing: 5px;
+
+}
+/* kode css navigator */
+ul{
+    list-style: none;
+    background-color: lightgoldenrodyellow;
+    padding: 0px 0px;
+    margin: 10px 0px;
+    position: relative;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: rgb(206, 255, 206);
+}
+
+/* kode css dropdown */
+ul li ul.dropdown{
+    background-color: pink;
+    position: fixed;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 10px 0px;
+    padding: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* kode css gambar dan tulisan bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+.column.side {
+    margin: 30px 0px;
+    width: 20%;
+    background-color: aliceblue;
+}
+
+.column.middle {
+    margin: 30px 0px;
+    width: 70%;
+    background-color: aliceblue;
+}
+.footer{
+    width: 1280px;
+    position: fixed;
+    bottom: 0;
+}

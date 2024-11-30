@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Header{
+    height: 1280;
+    width: 130;
+    position: fixed;
+}
+
+@font-face {
+    font-family: coklat;
+    src: url(Choco\ Shake\ copy.ttf);
+}
+
+@font-face {
+    font-family: jumat;
+    src: url(Butler/Butler_Bold.otf);
+}
+
+body{
+    background-image: url(PBB.png);
+    background: scroll;
+    animation-name: unset;
+}
+/* kode css navigator */
+ul{
+    list-style: none;
+    background-color: lightgoldenrodyellow;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    position: relative;
+    width: 1280px;
+    height: 60px;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    height: 60px;
+    padding: 10px 8px;
+}
+
+ul li a{
+    padding: 10px 10px;
+    text-align: center;
+}
+
+ul a:hover{
+    background-color: rgb(206, 255, 206);
+}
+
+/* kode css dropdown */
+ul li ul.dropdown{
+    background-color: pink;
+    position: absolute;
+    display: none;
+    width: auto;
+    height: auto;
+    margin: 0px 0px;
+}
+
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+/* kode css gambar dan tulisan bar */
+.column{
+    float: left;
+    padding: 0px 10px;
+}
+
+.column.side {
+    margin: 30px 0px;
+    width: 20%;
+    background-color: aliceblue;
+}
+
+.column.middle {
+    margin: 30px 0px;
+    width: 70%;
+    word-spacing: 10px;
+    text-align: justify;
+    background-color: rgb(213, 243, 255);
+}
+
+.aku{
+    text-align: center;
+    font-family: coklat;
+    letter-spacing: 5px;
+    color: blueviolet;
+    font-size: x-large;
+}
+
+.kamu{
+    text-align: justify;
+    font-family: jumat;
+    font-size: medium;
+}
+.footer{
+    width: 1280px;
+    position: fixed;
+    bottom: 0;
+}
